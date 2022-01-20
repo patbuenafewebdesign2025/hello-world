@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+  font-family: fantasy;
+}
+
+html, body {
+  margin:0;
+  padding: 0;
+  }
+
+  nav ul {
+    margin: 0;
+  }
+
+nav li {
+    display: inline;
+  }
+
+nav a {
+  display:inline-block;
+  color: white;
+  text-decoration: none;
+}
+
+main-nav {
+  text-align: center;
+  font-size: 1.1em;
+  border-bottom: 1px solid;
+}
+
+main-nav li {
+  padding: 0 5%;
+}
+
+nav a {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav a:hover {
+  background-color: gray;
+  color: yellow;
+}
+
+.main-header {
+  background-color: green;
+  background-size: cover
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.name-of-house {
+  text-align: center;
+  margin: 0;
+  font-size: 50px;
+  font-family: fantasy;
+  font-weight: normal;
+  color: pink;
+}
+
+.entire-content-area {
+  margin: 1em;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1.5em;
+}
+
+.section-header {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: normal;
+  text-align: center;
+  font-size: 2.5em;
+}
+
+h1 {
+  font-family: fantasy;
+}
+
+h5, p, b {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main-footer {
+  background-color: cyan;
+  color: rgb(0, 0, 0);
+  padding: .25em 0;
+}
+
+.main-footer-container {
+  display: flex;
+  align-items: center;
+}
+
+/*.main-footer-container ul {
+  flex-grow: 1;
+  text-align: end;
+}*/
+
+/*.footer-nav li {
+  padding: 0 .5em;
+}
+
+  .footer-nav img {
+    width: 30px;
+    height: 30px;
+  }*/
